@@ -7,7 +7,7 @@ http://www.github.com/mikeotizels/urlredirector
 Code distributed as part of Mikeotizels Developer project.
 http://www.github.com/mikeotizels/developer 
 
-For licensing, see LICENSE.md
+For licensing, see the LICENSE file.
 
 urlRedirector is a link redirecting plugin to be used in websites to 
 redirect to external URLs without leaking the Referer. It also logs
@@ -66,13 +66,13 @@ http://www.example.com/redirector?s=home-page&r=urlredirector-readme-file&u=http
 urlRedirector cannot really be "upgraded" - simply delete the old files on your 
 web server, and follow the installation instructions above.
 
-If you are using a database for logging, drop the old tables and create new ones.
-Then execute the SQL queries in the "db_tables.sql" file. 
+If you are using a database for logging, you can drop the old tables then
+execute the SQL queries in the "db_tables.sql" file to create new ones.  
 
 
 ## Intergration
 
-To integrate urlRedirector with other PHP Servers, Databases or CMS, follow the instructions
+To integrate urlRedirector with other PHP applications or CMS, follow the instructions
 in the readme.txt files in the respective directories under `integration` folder.
 
 
