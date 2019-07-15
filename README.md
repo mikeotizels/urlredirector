@@ -11,8 +11,10 @@ For licensing, see LICENSE.md
 
 urlRedirector is a link redirecting plugin to be used in websites to 
 redirect to external URLs without leaking the Referer. It also logs
-the redirection data in a TEXT file as well as in MySQL database. 
-You can adjust the redirector to your needs and integrate it with  
+the redirection data in a TEXT file as well as in MySQL database 
+for aggregate statistics. 
+
+You can adjust the redirector to your needs and integrate it with
 your website or application.
 
 
